@@ -32,7 +32,7 @@ serde_json = "1.0.151"
 thiserror = "2.0.19"
 uuid = { version = "1.24.0", features = ["serde"] }
 [dev-dependencies]
-clap = { version = "4.6.2", features = ["derive"] }
+clap = { version = "4.6.5", features = ["derive"] }
 color-eyre = "0.6.5"
 indoc = "2.0.7"
 [build-dependencies]
