@@ -18,12 +18,12 @@ This crate is supported on Windows only.
 
 This crate provides:
 
-* [`SandboxEnvironment`](https://docs.rs/wsbx/0.1.0/wsbx/environment/struct.SandboxEnvironment.html) for interacting with running sandbox instances
-* [`SandboxEnvironmentBuilder`](https://docs.rs/wsbx/0.1.0/wsbx/environment/struct.SandboxEnvironmentBuilder.html) for starting new sandbox instances
-* [`SandboxConfig`](https://docs.rs/wsbx/0.1.0/wsbx/config/struct.SandboxConfig.html) for constructing `.wsb`-compatible configuration XML
-* [`SandboxId`](https://docs.rs/wsbx/0.1.0/wsbx/types/struct.SandboxId.html) for working with sandbox identifiers returned by `wsb`
+* [`SandboxEnvironment`] for interacting with running sandbox instances
+* [`SandboxEnvironmentBuilder`] for starting new sandbox instances
+* [`SandboxConfig`] for constructing `.wsb`-compatible configuration XML
+* [`SandboxId`] for working with sandbox identifiers returned by `wsb`
 
-The configuration model in [`config`](https://docs.rs/wsbx/0.1.0/wsbx/config/index.html) follows the Windows Sandbox `.wsb`
+The configuration model in [`config`] follows the Windows Sandbox `.wsb`
 configuration format documented by Microsoft. For details, see
 [Use and configure Windows Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-configure-using-wsb-file).
 
@@ -66,6 +66,12 @@ Add this to your `Cargo.toml`:
 [dependencies]
 wsbx = "0.1.0"
 ````
+
+[`SandboxEnvironment`]: https://docs.rs/wsbx/0.1.0/wsbx/environment/struct.SandboxEnvironment.html "struct wsbx::environment::SandboxEnvironment"
+[`SandboxEnvironmentBuilder`]: https://docs.rs/wsbx/0.1.0/wsbx/environment/struct.SandboxEnvironmentBuilder.html "struct wsbx::environment::SandboxEnvironmentBuilder"
+[`SandboxConfig`]: https://docs.rs/wsbx/0.1.0/wsbx/config/struct.SandboxConfig.html "struct wsbx::config::SandboxConfig"
+[`SandboxId`]: https://docs.rs/wsbx/0.1.0/wsbx/types/struct.SandboxId.html "struct wsbx::types::SandboxId"
+[`config`]: https://docs.rs/wsbx/0.1.0/wsbx/config/index.html "module wsbx::config"
 <!-- cargo-sync-rdme ]] -->
 
 ## Minimum supported Rust version (MSRV)
