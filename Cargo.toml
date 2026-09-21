@@ -34,7 +34,7 @@ thiserror = "2.0.20"
 uuid = { version = "1.26.1", features = ["serde"] }
 
 [dev-dependencies]
-clap = { version = "4.6.6", features = ["derive"] }
+clap = { version = "4.6.7", features = ["derive"] }
 color-eyre = "0.6.5"
 indoc = "2.0.7"
 
