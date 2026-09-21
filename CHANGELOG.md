@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - ReleaseDate
 
+### Changed
+
+* Bump minimum supported Rust version (MSRV) from 1.87.0 to 1.94.1
+
 ## [0.1.0] - 2026-04-13
 
 * First release

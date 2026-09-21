@@ -71,15 +71,14 @@ pub(crate) fn execute_wsb_no_response_no_stdout(wsb: &mut Command) -> Result<(),
     let status = child.wait().map_err(SandboxError::ExecuteWsbCommand)?;
     if !status.success() {
         let mut message = String::new();
-        if let Some(mut stderr) = child.stderr.take() {
-            if let Err(err) = stderr.read_to_string(&mut message) {
-                let mut read_error_message =
-                    format!("failed to read stderr from wsb process: {err}");
-                if !message.is_empty() {
-                    let _ = write!(read_error_message, "\npartial stderr: {message}");
-                }
-                message = read_error_message;
+        if let Some(mut stderr) = child.stderr.take()
+            && let Err(err) = stderr.read_to_string(&mut message)
+        {
+            let mut read_error_message = format!("failed to read stderr from wsb process: {err}");
+            if !message.is_empty() {
+                let _ = write!(read_error_message, "\npartial stderr: {message}");
             }
+            message = read_error_message;
         }
         return Err(SandboxError::WsbCommand {
             status,
