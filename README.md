@@ -6,7 +6,7 @@
 [![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/wsbx.svg?style=flat-square)](#license)
 [![crates.io](https://img.shields.io/crates/v/wsbx.svg?logo=rust&style=flat-square)](https://crates.io/crates/wsbx)
 [![docs.rs](https://img.shields.io/docsrs/wsbx.svg?logo=docs.rs&style=flat-square)](https://docs.rs/wsbx)
-[![Rust: ^1.87.0](https://img.shields.io/badge/rust-^1.87.0-93450a.svg?logo=rust&style=flat-square)](https://doc.rust-lang.org/cargo/reference/manifest.html#the-rust-version-field)
+[![Rust: ^1.94.1](https://img.shields.io/badge/rust-^1.94.1-93450a.svg?logo=rust&style=flat-square)](https://doc.rust-lang.org/cargo/reference/manifest.html#the-rust-version-field)
 [![GitHub Actions: CI](https://img.shields.io/github/actions/workflow/status/gifnksm/wsbx/ci.yml.svg?label=CI&logo=github&style=flat-square)](https://github.com/gifnksm/wsbx/actions/workflows/ci.yml)
 [![Codecov](https://img.shields.io/codecov/c/github/gifnksm/wsbx.svg?label=codecov&logo=codecov&style=flat-square)](https://codecov.io/gh/gifnksm/wsbx)
 <!-- cargo-sync-rdme ]] -->
@@ -71,12 +71,12 @@ wsbx = "0.1.0"
 [`SandboxEnvironmentBuilder`]: https://docs.rs/wsbx/0.1.0/wsbx/environment/struct.SandboxEnvironmentBuilder.html "struct wsbx::environment::SandboxEnvironmentBuilder"
 [`SandboxConfig`]: https://docs.rs/wsbx/0.1.0/wsbx/config/struct.SandboxConfig.html "struct wsbx::config::SandboxConfig"
 [`SandboxId`]: https://docs.rs/wsbx/0.1.0/wsbx/types/struct.SandboxId.html "struct wsbx::types::SandboxId"
-[`config`]: https://docs.rs/wsbx/0.1.0/wsbx/config/index.html "module wsbx::config"
+[`config`]: https://docs.rs/wsbx/0.1.0/wsbx/config/index.html "mod wsbx::config"
 <!-- cargo-sync-rdme ]] -->
 
 ## Minimum supported Rust version (MSRV)
 
-The minimum supported Rust version is **Rust 1.87.0**.
+The minimum supported Rust version is **Rust 1.94.1**.
 At least the last 3 versions of stable Rust are supported at any given time.
 
 While a crate is a pre-release status (0.x.x) it may have its MSRV bumped in a patch release.
@@ -87,9 +87,9 @@ Once a crate has reached 1.x, any MSRV bump will be accompanied by a new minor v
 This project is licensed under either of
 
 * Apache License, Version 2.0
-   ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
+  ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
 * MIT license
-   ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
+  ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
 
 at your option.
 
