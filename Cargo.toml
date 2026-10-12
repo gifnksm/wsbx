@@ -36,7 +36,7 @@ uuid = { version = "1.27.0", features = ["serde"] }
 [dev-dependencies]
 clap = { version = "4.6.7", features = ["derive"] }
 color-eyre = "0.6.5"
-indoc = "2.0.7"
+indoc = "2.0.8"
 
 [build-dependencies]
 
