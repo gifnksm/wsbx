@@ -62,16 +62,16 @@ let _exit_code = result.exit_code();
 
 Add this to your `Cargo.toml`:
 
-````toml
-[dependencies]
-wsbx = "0.1.0"
-````
-
 [`SandboxEnvironment`]: https://docs.rs/wsbx/0.1.0/wsbx/environment/struct.SandboxEnvironment.html "struct wsbx::environment::SandboxEnvironment"
 [`SandboxEnvironmentBuilder`]: https://docs.rs/wsbx/0.1.0/wsbx/environment/struct.SandboxEnvironmentBuilder.html "struct wsbx::environment::SandboxEnvironmentBuilder"
 [`SandboxConfig`]: https://docs.rs/wsbx/0.1.0/wsbx/config/struct.SandboxConfig.html "struct wsbx::config::SandboxConfig"
 [`SandboxId`]: https://docs.rs/wsbx/0.1.0/wsbx/types/struct.SandboxId.html "struct wsbx::types::SandboxId"
 [`config`]: https://docs.rs/wsbx/0.1.0/wsbx/config/index.html "mod wsbx::config"
+
+````toml
+[dependencies]
+wsbx = "0.1.0"
+````
 <!-- cargo-sync-rdme ]] -->
 
 ## Minimum supported Rust version (MSRV)
